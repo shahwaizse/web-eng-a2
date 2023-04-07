@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>NavBar & Form</title>
+</head>
+<body>
+    <div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a>
+          <ul>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Company</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Work</a>
+          <ul>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Orders</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contact</a>
+          <ul>
+            <li><a href="#">Email</a></li>
+            <li><a href="#">Phone</a></li>
+            <li><a href="#">Socials</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <br><br><br>
+
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="18" max="120" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" minlength="8" required>
+        <br><br>
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" minlength="8" required>
+        <br><br>
+        <input type="submit" value="Submit">
+      </form>
+</body>
+</html>  

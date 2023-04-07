@@ -1,0 +1,30 @@
+div ul li{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+}
+
+div ul li a{
+  text-decoration: none;
+  color: #000;
+  margin-right: 20px;
+}
+
+div ul li ul{
+  display: none;
+  position: absolute;
+  background: whitesmoke;
+}
+
+div ul li ul li{
+  margin: 10px;
+}
+
+div ul li:hover ul{
+  display: block;
+}
+
+div ul{
+  background: whitesmoke;
+  padding: 20px;
+}
