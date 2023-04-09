@@ -6,14 +6,14 @@ div ul li{
 
 div ul li a{
   text-decoration: none;
-  color: #000;
+  color: whitesmoke;
   margin-right: 20px;
 }
 
 div ul li ul{
   display: none;
   position: absolute;
-  background: whitesmoke;
+  background: black;
 }
 
 div ul li ul li{
@@ -25,6 +25,20 @@ div ul li:hover ul{
 }
 
 div ul{
-  background: whitesmoke;
+  background: black;
+  border-radius: 5px;
   padding: 20px;
+}
+
+body{
+  background: #f1f1f1;
+}
+
+form{
+  width: 300px;
+  margin: 0 auto; /*margin: auto is used for centering an element*/
+  background: white;
+  padding: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
